@@ -2,7 +2,7 @@
 E-Commerce and Cart Management(FrontEnd) -->
 
 <h1 align="center">Book-Management</h1>
-<h3 align="center">E-Commerce and Cart Management (FrontEnd)</h3><br/>
+<h3 align="center">Book Management FrontEnd</h3><br/>
 
 # Getting Started with Create React App
 
