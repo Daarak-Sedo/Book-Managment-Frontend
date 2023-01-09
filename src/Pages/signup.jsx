@@ -13,20 +13,26 @@ const SignUp = () => {
             </h3>
 
             <div className="signup-input">
-                <label>Name: </label>
-                <input placeholder="Name" /><br />
-                <label>Email ID.: </label>
-                <input type='email' placeholder="Email" /><br />
-                <label>Phone No.: </label>
-                <input placeholder="Phone" /><br />
+                <label>fname: </label>
+                <input type='text' placeholder="fname" /><br />
+                <label>lname: </label>
+                <input type='text' placeholder="lname" /><br />
+                <label>email: </label>
+                <input type='email' placeholder="email" /><br />
+                <label>phone: </label>
+                <input type='tel' placeholder="Phone" /><br />
                 <label>Password: </label>
-                <input type='text' placeholder="Password" /><br /><br />
-                <button>SignUp</button>
+                <input type='password' placeholder="Password" /><br /><br />
+
+                <Link to="/login" >
+                    <button>SignUp</button>
+                </Link>
+
             </div>
 
 
 
-            <Link to="/login" >Submit</Link>
+
         </div>
     )
 

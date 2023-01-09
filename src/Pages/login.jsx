@@ -14,16 +14,17 @@ const Login = () => {
 
             <div className="login-input">
 
-                <label>Email ID.: </label>
-                <input type='email' placeholder="Email" /><br />
+                <label>email: </label>
+                <input type='email' placeholder="email" /><br />
                 <label>Password: </label>
-                <input type='text' placeholder="Password" /><br /><br />
-                <button>Login</button>
+                <input type='password' placeholder="Password" /><br /><br />
+
+                <Link to="/getBook" >
+                    <button>Login</button>
+                </Link>
+
             </div>
 
-
-
-            <Link to="/getBook" >Login</Link>
         </div>
 
     )
