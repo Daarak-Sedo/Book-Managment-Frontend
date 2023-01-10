@@ -6,7 +6,8 @@ import ErrorPage from './Pages/errorPage'
 import SignUp from './Pages/signup';
 import Login from './Pages/login';
 import Book from './Pages/bookPage'
-
+import AddBook from './Pages/addBook';
+import UpdateBook from './Pages/updateBook';
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
             <Route path='login' element={<Login />} />
 
             <Route path='getBook' element={<Book />} />
+            
+            <Route path='addBook' element={<AddBook />} />
+            
+            <Route path='updateBook/:id' element={<UpdateBook />} />
 
             <Route path='*' element={<ErrorPage />} />
           </Routes>
