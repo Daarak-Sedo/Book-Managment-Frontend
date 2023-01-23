@@ -42,7 +42,7 @@ const SignUp = () => {
     return (
 
         <div className="signup">
-            <h3>
+            <h3 style={{fontSize:"40px", color:"green"}}>
                 SignUp
             </h3>
 

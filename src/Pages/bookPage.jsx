@@ -100,13 +100,13 @@ const Books = () => {
 
             <ul>
                 <li><h3>Get All Books</h3></li>
-                <li><Link to="/" >LogOut</Link></li>
-                <li><Link to="/addBook" >Create Book</Link></li>
+                <li><Link to="/"  style={{fontSize:"40px", color:"green"}}>LogOut</Link></li>
+                <li><Link to="/addBook" style={{fontSize:"40px", color:"green"}} >Create Book</Link></li>
             </ul>
 
             <div>
                 <table>
-                    <tr>
+                    <tr style={{fontSize:"20px", color:"blue" }}>
                         <th>Title</th>
                         <th>Excerpt</th>
                         <th>Category</th>
@@ -114,7 +114,7 @@ const Books = () => {
                         <th>Update</th>
                         <th>Delete</th>
                     </tr>
-                    {BookData.length > 0 ?
+                    { BookData.length > 0 ?
 
                         BookData.map((val, key) => {
                             return (
@@ -127,7 +127,7 @@ const Books = () => {
                                     <td><button onClick={() => deleteBooks(val._id)}>Delete</button></td>
                                 </tr>
                             )
-                        }) : <h1>No Books Available!</h1>
+                        })   : <h1></h1>
                     }
                 </table>
 

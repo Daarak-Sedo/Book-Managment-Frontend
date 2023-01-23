@@ -37,7 +37,7 @@ const Login = () => {
 
     return (
         <div className="login">
-            <h3>Login</h3>
+            <h3 style={{fontSize:"40px", color:"green"}}>Login</h3>
 
             <div className="login-input">
                 <form>

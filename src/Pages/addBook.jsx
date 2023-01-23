@@ -43,10 +43,10 @@ const AddBook = () => {
 
 
     return (
-        <div className="link">
-
-            <h3>Create Book</h3>
-            <Link to="/" >LogOut</Link>
+        <div className="link" >
+{/* 
+            <h3 >Create Book</h3>
+            <Link to="/" >LogOut</Link> */}
 
             <div className="login-input">
                 <form>
@@ -108,7 +108,7 @@ const AddBook = () => {
 
 
                     {/* <Link to="/getBook" > */}
-                    <button className="btn" type="submit" onClick={createBook}>Submit</button><br />
+                    <button className="btn" type="submit" onClick={createBook}  >Submit</button><br />
                     {/* </Link> */}
 
                     <span>

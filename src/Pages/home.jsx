@@ -7,8 +7,8 @@ const HomePage = () => {
         <div className="link">
 
             <ul>
-                <li><Link to='/login'>Login</Link></li>
-                <li><Link to="/signup" >SignUp</Link></li>
+                <li><Link to='/login' style={{fontSize:"40px" , color:"green"}}> Login</Link></li>   <br/>
+                <li><Link to="/signup" style={{fontSize:"40px", color:"green"}} > SignUp</Link></li>
             </ul>
         </div>
     )
